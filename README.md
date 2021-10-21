@@ -1,9 +1,7 @@
 # SendCryptEmail
 
-SendCryptEmail tool send emails that can be encrypt using ssh keys.
+SendCryptEmail tool send emails that can be encrypted using ssh keys.
 Use the target user public ssh key that it will be able to decrypt the email and/or attachments using his private key.
-
-[The source for this project is available here][src].
 
 ---
 
@@ -58,13 +56,6 @@ sending an email without encrypting the body but encrypting the attachments (not
 
     python3 SendCryptEmail.py -t fg1@gmail.com -cc fg2@gmail.com -cc fg3@gmail.com -bcc fg4@gmail.com -b t1 -k ~/.ssh/id_rsa.pub -s "test email by python encrypted mode" -bcc fg5@gmail.com -bcc fg6@gmail.com -a test.gif -a test.
     pdf -u sender@gmail.com -bc no
-
-[packaging guide]: https://packaging.python.org
-[distribution tutorial]: https://packaging.python.org/tutorials/packaging-projects/
-[src]: https://github.com/stormalf/sendcryptemail
-[rst]: http://docutils.sourceforge.net/rst.html
-[md]: https://tools.ietf.org/html/rfc7764#section-3.5 "CommonMark variant"
-[md use]: https://packaging.python.org/specifications/core-metadata/#description-content-type-optional
 
 # release notes
 
