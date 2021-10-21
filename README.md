@@ -1,6 +1,6 @@
 # SendCryptEmail
 
-SendCryptEmail tool send emails that can be encrypted using ssh keys.
+SendCryptEmail tool sends emails that can be encrypted using ssh keys.
 Use the target user public ssh key that it will be able to decrypt the email and/or attachments using his private key.
 
 ---
